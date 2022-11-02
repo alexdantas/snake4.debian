@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Alexandre Dantas <eu@alexdantas.net>
 Build-Depends: debhelper (>= 9), libx11-dev, libxt-dev, libxaw7-dev, libshhmsg1-dev, libshhopt1-dev, libxmu-dev, libxpm-dev
 Standards-Version: 3.9.5
-Homepage: http://shh.thathost.com/pub-unix/#snake4
+Homepage: https://shh.thathost.com/pub-unix/#snake4
 Vcs-Git: git://github.com/alexdantas/snake4.debian.git -b master
 Vcs-Browser: https://github.com/alexdantas/snake4.debian
 
