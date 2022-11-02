@@ -1,3 +1,9 @@
+snake4 (1.0.14-2) UNRELEASED; urgency=medium
+
+  * Trim trailing whitespace.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 02 Nov 2022 01:12:27 -0000
+
 snake4 (1.0.14-1) unstable; urgency=medium
 
   * New upstream release
@@ -76,7 +82,7 @@ snake4 (1.0.12-11) unstable; urgency=low
 
 snake4 (1.0.12-10) unstable; urgency=low
 
-  * Removed "-s" option from install and ldd  in Makefile, to complain with 
+  * Removed "-s" option from install and ldd  in Makefile, to complain with
     nostrip build option (policy 10.1). (Closes: #438031)
   * Solved debian-rules-ignores-make-clean-error Lintian.
   * snake4.desktop: removed invalid "Application" category.
@@ -93,7 +99,7 @@ snake4 (1.0.12-9) unstable; urgency=low
 
 snake4 (1.0.12-8) unstable; urgency=low
 
-  * Added libxmu-dev and libxpm-dev as Build-Depends. 
+  * Added libxmu-dev and libxpm-dev as Build-Depends.
   * Changed point from xpm.h to X11/xpm.h in score.c file. (closes: #365165)
 
  -- Jose Carlos Medeiros <debian@psabs.com.br>  Fri, 28 Apr 2006 19:10:02 -0300
@@ -161,7 +167,7 @@ snake4 (1.0.12-1) unstable; urgency=low
   * New upstream release (with clarified license in README)
   * Updated debian/copyright with Artistic license (Closes: #130400)
   * Fixed typo in description (Closes: #125369)
-  
+
  -- Karl Soderstrom <ks@debian.org>  Sun, 31 Mar 2002 13:35:30 +0200
 
 snake4 (1.0.11-4) unstable; urgency=low
@@ -191,7 +197,7 @@ snake4 (1.0.11-1) unstable; urgency=low
   * New maintainer (Closes: #74839)
   * Compiled against libxpm4 (Closes: #67950)
   * Changed to debhelper
-  
+
  -- Karl Soderstrom <coldn@gamearena.net>  Fri,  8 Dec 2000 20:20:04 +0100
 
 snake4 (1.0.10-1.1) unstable; urgency=low
